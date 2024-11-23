@@ -1,0 +1,50 @@
+<html>
+    <header><title>Pete's Pizza Delivery</title></header>
+    <h1><center>Pete's Pizza Delivery</center></h1>
+    <h2><center><em>Online Order Form</em></center></h2>
+    <body style="background-color:orangered;">
+        <form method="POST">
+            <center><table><tr>
+            <td>
+                *Name:<input type="text" name="name1" required><br>
+                *Address:<input type="text" name="address" required><br>
+                *Town/city:<input type="text" name="town/city" required><br>
+                *Postcode:<input type="text" name="postcode" required><br>
+                *Tel:<input type="text" name="tel" required><br>
+                *Email:<input type="text" name="email" required><br>
+                <center>*required fields</center>
+            </td>
+            <td>
+                <img src="/Users/binushaas/Downloads/pizza image.png" alt:"Pizza" style="width:200px"><br><br>
+                </td>
+            </tr></table></center>
+            <center><table><tr>
+                <td>
+                    <h3>Topping:<br></h3>
+                    <input type="radio" name="topping">Margherita<br>
+                    <input type="radio" name="topping">Four Seasons<br>
+                    <input type="radio" name="topping">Meat Feast<br><br>
+                </td>
+                <td>
+                    <h3>Size:<br></h3>
+                    <input type="radio" name="size">Small<br>
+                    <input type="radio" name="size">Medium<br>
+                    <input type="radio" name="size">Large<br><br>
+                </td>
+                <td>
+                    <h3>Extras:<br></h3>
+                    <input type="checkbox" name="extras">Mushrooms<br>
+                    <input type="checkbox" name="extras">Green peppers<br>
+                    <input type="checkbox" name="extras">Anchovies<br>
+                    <input type="checkbox" name="extras">Extra cheese<br><br>
+                </td>
+            </tr>
+        </table></center>
+        <center><label for="delivery-time">Preferred delivery time:</label>
+            <input type="time" id="delivery-time"><br><br>
+            <label for="instruction">Delivery instructions:</label><br>
+            <textarea id="instructions" name="instructions" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit Order"></center>
+        </form>
+    </body>
+</html>
